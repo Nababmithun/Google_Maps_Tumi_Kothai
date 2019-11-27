@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+
+    <include layout="@layout/content_map" />
+
+    <Button
+        android:textColor="#0652AF"
+
+        android:id="@+id/zoomin"
+        android:textAllCaps="false"
+        android:layout_marginTop="370dp"
+        android:text="Zoom In"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="#22010C"
+        android:id="@+id/zoomout"
+        android:textAllCaps="false"
+
+        android:layout_marginTop="420dp"
+        android:text="Zoom Out"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
